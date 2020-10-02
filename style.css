@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #000;
+    border-radius: 25px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    outline: none; 
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+p{
+    font-family: Caveat;
+    font-size: 30px;
+    margin-top: 15px;
+}
